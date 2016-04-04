@@ -1,0 +1,10 @@
+# For idea
+.idea
+*.ids
+*.iml
+*.ipr
+*.iws
+
+# For Grcd ../adle
+**/build
+.gradle
