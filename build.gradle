@@ -1,4 +1,4 @@
-group 'ddd-sample'
+group 'sample-spring-data-bind'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
@@ -33,19 +33,7 @@ dependencies {
     compile('org.thymeleaf.extras:thymeleaf-extras-conditionalcomments:2.1.1.RELEASE')
     compile('org.thymeleaf.extras:thymeleaf-extras-springsecurity3:2.1.1.RELEASE')
 
-    compile("org.webjars:font-awesome:4.3.0-1")
-
-    compile("org.webjars:jquery:2.1.4")
-    compile("org.webjars:knockout:3.3.0")
-    compile("org.webjars:underscorejs:1.8.3")
-    compile("org.webjars:modernizr:2.8.3")
-    compile("org.webjars:fastclick:1.0.6")
-
     compile("commons-lang:commons-lang:2.6")
-
-    compile("org.springframework.boot:spring-boot-starter-redis:${springBootVersion}")
-
-    compile('is.tagomor.woothee:woothee-java:1.2.0')
 
     compile fileTree(dir: 'libs', include: '*.jar')
 
